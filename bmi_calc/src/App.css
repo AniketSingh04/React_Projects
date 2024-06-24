@@ -1,0 +1,138 @@
+/*
+/*Style1*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(245, 220, 198);
+}
+
+main{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(250, 189, 119);
+  width: 99vw;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  padding-bottom: 30px;
+}
+
+h1{
+  background-color: rgb(119, 89, 43);
+  color: aliceblue;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  padding: 10px 20px;
+}
+
+.input-section{
+  width: 75%;
+}
+
+.input-slider{
+  width: 100%;
+  margin-top: 8px;
+  padding-top: 1px;
+}
+
+.output{
+  padding: 10px 5px;
+  border-radius: 9999px;
+  background-color: rgb(145, 107, 50);
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+.output-section{
+  margin-top: 23px;
+
+}
+*/
+
+/*Style2*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 220, 198);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(250, 189, 119);
+  width: 95vw;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  background-color: rgb(119, 89, 43);
+  color: aliceblue;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  padding: 15px 20px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.input-slider {
+  width: 100%;
+  margin-top: 8px;
+  padding-top: 1px;
+}
+
+.output {
+  padding: 15px 20px;
+  border-radius: 25px;
+  background-color: rgb(145, 107, 50);
+  margin-top: 10px;
+  color: aliceblue;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.output-section {
+  margin-top: 23px;
+}
+
+/* Inner div with light peach color */
+.inner {
+  background-color: #FFDAB9; /* Light Peach */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: rgb(119, 89, 43);
+}
