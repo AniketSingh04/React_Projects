@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/Card.css';
 
-const Card = ({item}) => {
+const Card = ({item, handleClick}) => {
     const {author, id, img, price, title} = item;
 
 
@@ -14,7 +14,7 @@ const Card = ({item}) => {
             <p>{title}</p>
             <p>{author}</p>
             <p>Price - {String.fromCharCode(8377)}{price}</p>
-            <button>Add to Cart</button>
+            <button onClick={()=> handleClick(item)}>Add to Cart</button>
         </div>
     </div>
   )
