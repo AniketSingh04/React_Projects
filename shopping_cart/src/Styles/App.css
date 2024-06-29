@@ -1,0 +1,60 @@
+/*
+.warning{
+    height: 40px;
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 250px;
+    margin-top: 8px;
+}
+*/
+
+
+.warning {
+    height: 40px;
+    margin-right: 8px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 250px;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 0.5px;
+    animation: fadeIn 1s ease-in-out, pulse 2s infinite;
+    opacity: 0; /* start off invisible */
+    animation-fill-mode: forwards; /* keep the animation end state */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+    }
+  }
+  
