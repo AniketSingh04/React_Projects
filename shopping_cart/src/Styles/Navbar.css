@@ -1,0 +1,48 @@
+/* Navbar.css */
+nav {
+    background-color: #333;
+    padding: 1rem 2rem;
+  }
+  
+  .nav_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+   
+  .cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .my-shop{
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+  }
+  
+  .cart i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .cart span {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .cart span:last-child {
+    background-color: #ff6347;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.3rem 0.6rem;
+    position: relative;
+    top: -15px;
+
+  }
+  
